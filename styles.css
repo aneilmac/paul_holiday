@@ -3,6 +3,11 @@ body {
     text-align: center;
   }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 h1 {
     font-size: 5em;
 }
@@ -11,7 +16,7 @@ h2 {
     font-size: 4em;
 }
 
-#yes {
+#answer {
     color: red;
     font-style: italic;
 }
