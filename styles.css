@@ -24,7 +24,6 @@ h2 {
 footer {
     padding: 3px;
     font-size: small;
-    bottom : 0;
     height : 40px;
     width: 100%;
 }
@@ -34,6 +33,7 @@ footer {
 }
 
 .recycling {
+    font-size: 2em;
     background-color: blanchedalmond;
     padding: 5px;
 }
