@@ -1,15 +1,23 @@
+<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
+    <script src="bins.js"></script> 
     <title>Is Paul on Holiday?</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var node = is_even_week() ? document.getElementById("blue") : document.getElementById("red");
+            node.classList.remove("hidden");
+        });
+    </script>
 </head>
 <body>
 <header><h1>Is Paul on Holiday?</h1></header>
 <article>
     <h2 id="answer">No.</h2> 
-    <p>Paul is currently home.</p>
-    <p>He is enjoying it very much.</p>
-    <img width="256" alt="Guitar 1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Guitar_1.jpg/256px-Guitar_1.jpg?20070411221415" />
+    <div id="blue" class ="hidden recycling">🪗🪗 This Thursday is a blue 🟦 recycling day 🪗🪗</div>
+    <div id="red" class="hidden recycling" >🎉🎻 This Thursday is a red 🟥 recycling day 🎻🎉</div>
+    <img width="125" alt="Guitar 1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Guitar_1.jpg/256px-Guitar_1.jpg?20070411221415" />
 </article>
 <footer>
    Image courtesy of <a href="https://commons.wikimedia.org/wiki/File:Guitar_1.jpg">PJ</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons

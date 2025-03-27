@@ -9,11 +9,11 @@ body {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #answer {
@@ -27,4 +27,13 @@ footer {
     bottom : 0;
     height : 40px;
     width: 100%;
-  }
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.recycling {
+    background-color: blanchedalmond;
+    padding: 5px;
+}
