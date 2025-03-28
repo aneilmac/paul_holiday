@@ -12,4 +12,3 @@ function is_week_even(dt) {
 function is_current_week_even() {
   return is_week_even(Date.now());
 }
-
